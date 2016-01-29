@@ -19,6 +19,7 @@ PromiseKit is a thoughtful and complete implementation of promises for iOS and O
 
 [![Join the chat at https://gitter.im/mxcl/PromiseKit](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/mxcl/PromiseKit?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) ![](https://img.shields.io/cocoapods/v/PromiseKit.svg?label=Current%20Release)  [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg)](https://github.com/Carthage/Carthage)
 
+UPDATED: The Podfile is updated to support tvOS <= 9.1
 
 # Which PromiseKit Should I Use?
 
@@ -65,7 +66,7 @@ The original, nice to use with Objective-C, less nice to use with Swift, hence P
 ```ruby
 use_frameworks!
 
-pod "PromiseKit", "~> 2.0"
+pod "PromiseKit"
 ```
 
 ### Carthage
