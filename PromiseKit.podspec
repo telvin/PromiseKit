@@ -82,7 +82,7 @@ Pod::Spec.new do |s|
     ss.osx.source_files = 'Categories/Foundation/*'
     ss.watchos.source_files = Dir['Categories/Foundation/*'] - Dir['Categories/Foundation/NSTask*', 'Categories/Foundation/NSURL*']
     ss.dependency 'PromiseKit/CorePromise'
-    ss.dependency 'OMGHTTPURLRQ', '~> 3.0.0'
+    # ss.dependency 'OMGHTTPURLRQ', '~> 3.0.0'
     ss.frameworks = 'Foundation'
   end
   
